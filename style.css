@@ -1,0 +1,140 @@
+/* Global Styles */ 
+
+/*Structure*/ 
+
+body{
+  background-image:url('https://dl.dropbox.com/u/4517171/Website%20hosting/images/haeckel.jpg');
+  /*background-image:url('https://dl.dropbox.com/u/4517171/Website%20hosting/images/angelisland.jpg');*/
+  background-attachment: fixed;
+  background-size: contain;
+  margin: 0;
+  font-family: Georgia, serif;
+}
+
+#container {
+  width: 820px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #5A5A5A;
+}
+
+#menu {
+  width: 200px;
+  float: left;
+  overflow: hidden;
+  opacity: 0.97;
+}
+
+#logo {
+  display: inline;
+  float: left;
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+}
+
+.logo_img {
+  display: inline-block;
+	width: 200px;
+	height: 200px;
+	background: url('https://dl.dropbox.com/u/4517171/Website%20hosting/images/logo_final.png');
+}
+
+.logo_img:hover {
+	background-position: -200px 0;
+}
+
+
+#summary{
+  background-color: #ffffff;
+  text-align: center;
+  line-height: 0.8em;
+  float: left;
+  margin-top: 10px;
+  width: 200px;
+  position: relative;
+  clear: left;
+}
+
+#contact {
+ float: left;
+ background-color: #ffffff;
+ line-height: 0.8em;
+ font-size: 0.9em;
+ margin-top: 10px;
+ padding-left: 20px;
+ width: 195px;  
+}
+
+#bio {
+  float: left;
+  background-color: #fff;
+  margin-top: 10px;
+  padding: 0px 8px 0px 15px;
+  width: 177px;  
+  font-size: 0.8em;
+  clear: left;
+}
+
+#credits{
+  float: left;
+  background-color: #fff;
+  margin-top: 10px;
+  padding: 0px 10px;
+  width: 180px;  
+  clear: left;
+  font-size: 0.65em;
+  color: #999;
+}
+
+/* right side */
+
+#right {
+  background-color: #fff;
+  color: #555;
+  margin-left: 220px;
+  width: 480px;
+  opacity: 0.95;
+}
+
+#content {
+  padding: 15px 20px 15px 30px;
+  font-size: 0.9em;
+}
+
+ul {
+  list-style: none;
+  margin-bottom: 30px;
+}
+
+ul li {
+  margin-top: 12px;
+  text-indent: -1.1em;
+  margin-left: -1.5em;
+}
+
+/* Content */
+
+h1 {
+  font-size: 1.4em;
+  font-weight: 500;
+  color: #222;
+}
+
+h2 {
+  font-size: 1em;
+  font-style: italic;
+  font-weight: 500;
+  color: #222;
+}
+
+
+a {
+  text-decoration: none;
+  color: #718596;
+}
+a:hover {
+  color: #222;
+}
