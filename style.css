@@ -1,18 +1,21 @@
+
 /* Global Styles */ 
 
 /*Structure*/ 
 
 body{
-  background-image:url('https://dl.dropbox.com/u/4517171/Website%20hosting/images/haeckel.jpg');
-  /*background-image:url('https://dl.dropbox.com/u/4517171/Website%20hosting/images/angelisland.jpg');*/
+	background-image:url('https://dl.dropbox.com/u/4517171/Website%20hosting/images/Tafel_02.jpg');
+	
+  /*background-image:url('https://dl.dropbox.com/u/4517171/Website%20hosting/images/haeckel.jpg');
+  background-image:url('https://dl.dropbox.com/u/4517171/Website%20hosting/images/angelisland.jpg');*/
   background-attachment: fixed;
-  background-size: contain;
+  /*background-size: contain;*/
   margin: 0;
   font-family: Georgia, serif;
 }
 
 #container {
-  width: 820px;
+  width: 700px;
   margin-top: 25px;
   margin-bottom: 25px;
   margin-left: auto;
@@ -36,7 +39,7 @@ body{
 }
 
 .logo_img {
-  display: inline-block;
+	display: inline-block;
 	width: 200px;
 	height: 200px;
 	background: url('https://dl.dropbox.com/u/4517171/Website%20hosting/images/logo_final.png');
@@ -72,7 +75,7 @@ body{
   float: left;
   background-color: #fff;
   margin-top: 10px;
-  padding: 0px 8px 0px 15px;
+  padding: 0px 10px 0px 15px;
   width: 177px;  
   font-size: 0.8em;
   clear: left;
@@ -82,7 +85,7 @@ body{
   float: left;
   background-color: #fff;
   margin-top: 10px;
-  padding: 0px 10px;
+  padding: 0px 20px 0px 15px;
   width: 180px;  
   clear: left;
   font-size: 0.65em;
@@ -94,25 +97,29 @@ body{
 #right {
   background-color: #fff;
   color: #555;
-  margin-left: 220px;
-  width: 480px;
-  opacity: 0.95;
+  margin-left: 210px;
+  width: 475px;
+  opacity: 0.97;
 }
 
 #content {
-  padding: 15px 20px 15px 30px;
-  font-size: 0.9em;
+  padding: 15px 20px 5px 30px;
+  font-size: 0.8em;
 }
 
 ul {
   list-style: none;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 ul li {
-  margin-top: 12px;
-  text-indent: -1.1em;
-  margin-left: -1.5em;
+  margin-top: 8px;
+  text-indent: -1em;
+  margin-left: -2em;
+}
+
+ul li a {
+  font-size: 1.1em;
 }
 
 /* Content */
@@ -124,7 +131,7 @@ h1 {
 }
 
 h2 {
-  font-size: 1em;
+  font-size: 1.1em;
   font-style: italic;
   font-weight: 500;
   color: #222;
