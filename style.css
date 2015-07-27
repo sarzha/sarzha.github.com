@@ -15,7 +15,7 @@ body{
 }
 
 #container {
-  width: 700px;
+  width: 750px;
   margin-top: 25px;
   margin-bottom: 25px;
   margin-left: auto;
@@ -74,10 +74,11 @@ body{
 #bio {
   float: left;
   background-color: #fff;
-  margin-top: 10px;
-  padding: 0px 10px 0px 15px;
-  width: 177px;  
-  font-size: 0.8em;
+  margin-top: 10px; 
+  padding: 0px 20px 0px 15px;
+  width: 170px;  
+  font-size: 0.9em;
+  line-height: 125%;
   clear: left;
 }
 
@@ -98,7 +99,7 @@ body{
   background-color: #fff;
   color: #555;
   margin-left: 210px;
-  width: 475px;
+  width: 490px;
   opacity: 0.97;
 }
 
@@ -131,10 +132,9 @@ h1 {
 }
 
 h2 {
-  font-size: 1.1em;
+  font-size: 1.2em;
   font-style: italic;
   font-weight: 500;
-  color: #222;
 }
 
 
