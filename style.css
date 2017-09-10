@@ -42,8 +42,9 @@ body{
 	display: inline-block;
 	width: 200px;
 	height: 200px;
-	background: url('https://dl.dropbox.com/u/4517171/Website%20hosting/images/logo_final.png');
+	background: url('https://image.ibb.co/mGh54F/logo_final.png.png');
 }
+
 
 .logo_img:hover {
 	background-position: -200px 0;
